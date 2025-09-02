@@ -66,6 +66,41 @@ main {
     border-radius: 50px;
 }
 
-.foto1,.algumacoisa.jpeg {
+.foto1,
+.algumacoisa.jpeg {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
 
+    width: 250px;
+    height: 549px;
+    background-color: blueviolet;
+
+    border: 10px solid;
+    border-radius: 50px;
+
+}
+
+.foto1 img,
+.foto3 img {
+    width: 138px;
+    height: 137px;
+    object-fit: cover;
+}
+
+.foto1 {
+    width: 950px;
+    height: 502px;
+
+    background-color: blueviolet;
+    border: 10px solid;
+    border-radius: 288px;
+}
+
+.foto3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 268px;
 }
